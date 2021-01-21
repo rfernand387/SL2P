@@ -1,0 +1,27 @@
+Output of SL2P matlab calibration code (github/rfernand/sl2p/code) run using Parameter file WV3_allbands_sl2p_weiss_or_prosail.xls..
+
+Details
+
+WV3 - applies to WV3 Surface Reflectance (Level 2) products scaled to 0-1
+noswir - input band list
+      Green, 510 - 580 nm,  0-1
+      Yellow, 585 - 625 nm,  0-1
+      Red, 630 - 690 nm,  0-1
+      Red edge, 705 - 745 nm,  0-1
+      Near-IR1, 770 - 895 nm,  0-1
+      Near-IR2, 860 - 1040 nm, 0-1
+      SWIR-1, 1195 - 1225 nm, 0-1
+      SWIR-2, 1550 - 1590 nm, 0-1
+      SWIR-3, 1640 - 1680 nm, 0-1
+      SWIR-4, 1710 - 1750 nm, 0-1
+      SWIR-5, 2145 - 2185 nm, 0-1
+      SWIR-6, 2185 - 2225 nm, 0-1
+      SWIR-7, 2235 - 2285 nm, 0-1
+      SWIR-8, 2295 - 2365 nm, 0-1
+      cos(SZA),  0-1
+      cos(VZA),  0-1
+      cos(RAA),  0-1
+sl2p - uses SL2P neural network inversion algorithm
+weiss - uses calibraton database pdfs as defined in Weiss and Baret, 2016
+or - uses orthongonal sampling of database as in Weiss and Baret, 2016
+prosail - uses prosail radiative transfer algorithm to simulate database
