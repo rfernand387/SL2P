@@ -10,7 +10,7 @@ input band list
       Near-IR1, 770 - 895 nm,  0-1
       Near-IR2, 860 - 1040 nm, 0-1
       SWIR-3, 1640 - 1680 nm
-      SWIR-6, 2185 - 2225 nm
+      SWIR-5, 2145 - 2185 nm
       cos(SZA),  0-1
       cos(VZA),  0-1
       cos(RAA),  0-1
